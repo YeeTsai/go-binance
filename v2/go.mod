@@ -21,4 +21,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/adshao/go-binance/v2 v2.4.5 => github.com/YeeTsai/go-binance/v2 v2.0.0-20231110090022-2f20837df755
+replace github.com/adshao/go-binance/v2 v2.4.5 => github.com/YeeTsai/go-binance/v2 v2.0.0-20231110095023-070ac2eb9156
