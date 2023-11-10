@@ -89,6 +89,7 @@ func (s *ListPricesService) Do(ctx context.Context, opts ...RequestOption) (res 
 type SymbolPrice struct {
 	Symbol string `json:"symbol"`
 	Price  string `json:"price"`
+	Time   int64  `json:"time"`
 }
 
 // ListPriceChangeStatsService show stats of price change in last 24 hours for all symbols
